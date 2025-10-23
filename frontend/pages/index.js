@@ -11,9 +11,8 @@ export default function Home() {
   return (
     <div style={{ padding: '2rem', fontFamily: 'sans-serif', maxWidth: '800px', margin: '0 auto' }}>
       <h1>bbbbApp1</h1>
-      <p>test</p>
+      <p>testing</p>
       <hr style={{ margin: '2rem 0' }} />
-      {loading ? <p>Loading...</p> : <pre style={{ background: '#f4f4f4', padding: '1rem', borderRadius: '4px' }}>{JSON.stringify(data, null, 2)}</pre>}
     </div>
   );
 }
