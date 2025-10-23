@@ -11,8 +11,7 @@ export default function Home() {
   return (
     <div style={{ padding: '2rem', fontFamily: 'sans-serif', maxWidth: '800px', margin: '0 auto' }}>
       <h1>bbbbApp1</h1>
-      <p>testing</p>
-      <hr style={{ margin: '2rem 0' }} />
+      <p>testing for more changes</p>
     </div>
   );
 }
